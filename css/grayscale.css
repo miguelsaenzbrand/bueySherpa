@@ -137,15 +137,17 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
+  color: black;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  color: black;
 }
 @media (min-width: 768px) {
   .intro {
     height: 100%;
     padding: 0;
-  }
+    }
   .intro .intro-body .brand-heading {
     font-size: 100px;
   }
@@ -158,10 +160,10 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 100% !important;
   font-size: 40px;
-  color: white;
+  color: black;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
